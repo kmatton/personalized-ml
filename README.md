@@ -11,7 +11,10 @@ The repo contains code for running several methods of personalized machine learn
 * Baselines: cluster similar people and train cluster-specific models, fine-tune person specific models, train person-specific models from scratch
 
 ### Running the Code 
+The ``src`` directory contains the main project code and the ``notebooks`` directory contains supporting analysis/processing of experiment results.
+
 1. Create config file <my_config>.json (see examples in src/argument_configs)
-2. Run . ./path.sh to update your Python path
-3. Run python runners/run_multi_exp.py <my_config.json>
+2. Run ``. ./path.sh`` to update your Python path
+3. Run ``python runners/run_multi_exp.py <my_config.json>``
+
 
